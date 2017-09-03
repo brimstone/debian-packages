@@ -10,7 +10,7 @@ Homepage: https://github.com/brimstone/debian-packages
 
 Package: brimstone-system
 Architecture: all
-Depends: zsh, tmux, git, rsync, axel, aria2c, apt-file, less, locales, tcpdump, vim
+Depends: zsh, tmux, git, rsync, axel, aria2, apt-file, less, locales, tcpdump, vim
 Description: Packages for all systems
  This package is for all of brimstone's systems
 
