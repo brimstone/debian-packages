@@ -10,12 +10,12 @@ Homepage: https://github.com/brimstone/debian-packages
 
 Package: brimstone-system
 Architecture: all
-Depends: ${misc:Depends}, zsh, tmux, git
+Depends: zsh, tmux, git, rsync, axel, aria2c, apt-file, less, locales, tcpdump, vim
 Description: Packages for all systems
  This package is for all of brimstone's systems
 
 Package: brimstone-laptop
 Architecture: all
-Depends: ${misc:Depends}, brimstone-system
+Depends: brimstone-system, rxvt-unicode-256color, firefox, wicd-curses, wicd-client
 Description: Packages for all laptops
  This package is for all of brimstone's laptops
