@@ -1,0 +1,21 @@
+Source: debian-packages
+Section: contrib/misc
+Priority: optional
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/brimstone/debian-packages
+#Vcs-Git: git://anonscm.debian.org/collab-maint/makeme.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/makeme.git;a=summary
+
+Package: brimstone-system
+Architecture: all
+Depends: ${misc:Depends}, zsh, tmux, git
+Description: Packages for all systems
+ This package is for all of brimstone's systems
+
+Package: brimstone-laptop
+Architecture: all
+Depends: ${misc:Depends}, brimstone-system
+Description: Packages for all laptops
+ This package is for all of brimstone's laptops
