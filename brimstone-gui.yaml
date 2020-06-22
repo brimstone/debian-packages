@@ -1,0 +1,25 @@
+name: "brimstone-gui"
+arch: "all"
+platform: "linux"
+version: "${VERSION}"
+section: "metapackages"
+priority: "extra"
+depends:
+- brimstone-system
+- xcape
+- i3-wm
+- rxvt-unicode-256color
+- graphicsmagick-imagemagick-compat
+- feh
+- flameshot
+conflicts:
+- chromiumXXX
+maintainer: "Matt Robinson <brimstone@the.narro.ws>"
+description: |
+  FooBar is the great foo and bar software.
+    And this can be in multiple lines!
+vendor: "FooBarCorp"
+homepage: "http://example.com"
+license: "AGPLv3"
+config_files:
+  brimstone-gui/gui.conf: /etc/brimstone/gui.conf
