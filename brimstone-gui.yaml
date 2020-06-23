@@ -13,6 +13,7 @@ depends:
 - feh
 - flameshot
 - firefox
+- dmenu
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
   FooBar is the great foo and bar software.
