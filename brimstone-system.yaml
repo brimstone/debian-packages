@@ -6,17 +6,15 @@ version: "${VERSION}"
 section: "metapackages"
 priority: "extra"
 depends:
-- zsh
-- tmux
-- entr
-- vim
-- curl
-- btrfs-progs
 - apt-transport-https
+- btrfs-progs
+- curl
+- entr
 - git
-conflicts:
-- not-foo
-- not-bar
+- iftop
+- tmux
+- vim
+- zsh
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
   FooBar is the great foo and bar software.
