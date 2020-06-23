@@ -5,6 +5,7 @@ export VERSION
 all: $(DEBS)
 
 dist/%.deb: %.yaml
+	@mkdir -p dist
 	nfpm pkg --config $< --target $@
 
 .PHONY: install
