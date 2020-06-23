@@ -1,0 +1,94 @@
+Package: brimstone-gui
+Architecture: all
+Version: 0.27.0
+Priority: extra
+Section: metapackages
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Installed-Size: 0
+Depends: brimstone-system, afuse, apt-file, arandr, autorandr, bc, blueman, dmenu, evince, feh, firefox, flameshot, golang-go, graphicsmagick-imagemagick-compat, i3-wm, ibus, libreoffice, lightdm, lightdm-gtk-greeter, openvpn, parcellite, pavucontrol, pinentry-gtk2, pulseaudio, retext, rxvt-unicode-256color, solaar, sshfs, thunderbird, transmission-cli, vlc, xcape, xcompmgr, xdotool, xscreensaver, xscreensaver-data-extra, xsel, yubikey-manager, zenity
+Filename: ./brimstone-gui_0.27.0_all.deb
+Size: 1026
+MD5sum: 1ae08d16aee79c87d1d6f729c3ed654e
+SHA1: 7f22dc24553e4d0c02a5d6c48ac22c4010abeeb2
+SHA256: 26f7754dc75d4e00b33b9179a0d9f98ca792acb845c120b4f4d96465c41a826a
+SHA512: 1a0ebc58ca8746f9c584e5c1d0db4848952c75c39174f7b13fb1c96df17f782586a91047568ab42ba7da06963f9ac6535cc408adb680436a5dca2a6bd3c84025
+Homepage: http://example.com
+Description: FooBar is the great foo and bar software.
+    And this can be in multiple lines!
+Vendor: FooBarCorp
+
+Package: brimstone-laptop
+Architecture: all
+Version: 0.8.0
+Priority: extra
+Section: metapackages
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Installed-Size: 0
+Depends: brimstone-system, acpi, network-manager, network-manager-gnome, pm-utils, tinc, tlp
+Filename: ./brimstone-laptop_0.8.0_all.deb
+Size: 982
+MD5sum: 1de4d0fd5eb0f9d7de88c6922db57613
+SHA1: 1d136408333536ea8584b289f36260375895b1ed
+SHA256: 9d19f0c22a902359ad3c23569476b3d520b28ba9fada29bd7257de326e3d573a
+SHA512: 828e3ec1ad742cbf0e33d72816382b8af15d8a11677c60d19dd09c26471a827de7702bcab730bd090d049b9fc62580979e561c5cce2942dd7a8bc4495d0069af
+Homepage: http://example.com
+Description: FooBar is the great foo and bar software.
+    And this can be in multiple lines!
+Vendor: FooBarCorp
+
+Package: brimstone-system-liani
+Architecture: all
+Version: 0.1.0
+Priority: extra
+Section: metapackages
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Installed-Size: 0
+Depends: brimstone-gui, brimstone-laptop
+Filename: ./brimstone-system-liani_0.1.0_all.deb
+Size: 752
+MD5sum: 7c94394e21fb78cb25f6342ef8b2e0af
+SHA1: 9c0489e40615a0dfc09c033045c388b887833583
+SHA256: bddb6044a19c322835971c5a17b5d3acc219517f940dcbeea3e796e211bc6217
+SHA512: 1e5bea4e7de7f8294d305d36e6069954be44c07e462be6903d9384d0dccaa18aa12d2f034b61ed49dcb9bf273f498c66487d1d84c642434706466c7a1c9564e5
+Homepage: http://example.com
+Description: Meta package for the laptop named liani
+Vendor: FooBarCorp
+
+Package: brimstone-system-micropc
+Architecture: all
+Version: 0.1.0
+Priority: extra
+Section: metapackages
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Installed-Size: 0
+Depends: brimstone-gui, brimstone-laptop, libvdpau-va-gl1, intel-media-va-driver
+Filename: ./brimstone-system-micropc_0.1.0_all.deb
+Size: 810
+MD5sum: cace523aa892e5f048a55482cbff8790
+SHA1: 84443b2d774799424d6c46ca887b36f8edd7a08c
+SHA256: 026f991dd95d8fc8b8d9c90de657f125595ef9e00ebf30658042dca02c263e14
+SHA512: 9250b395fcc047f69dce944ce8b878263d43787ba87e67fbb34ffa0dc78dffc75b1d110ea3afbfd22910171d2620c037eb8a88ee8dc88de485efcab2972f3867
+Homepage: http://example.com
+Description: FooBar is the great foo and bar software.
+    And this can be in multiple lines!
+Vendor: FooBarCorp
+
+Package: brimstone-system
+Architecture: all
+Version: 0.18.0
+Priority: extra
+Section: metapackages
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Installed-Size: 0
+Depends: apt-transport-https, aria2, bind9-host, btrfs-progs, curl, entr, git, htop, iftop, init, iotop, jq, mtr-tiny, ncdu, netcat-traditional, p7zip-full, pv, rclone, rsync, ssh, sudo, tmux, tree, unrar, vim, zsh
+Conflicts: nano
+Filename: ./brimstone-system_0.18.0_all.deb
+Size: 1412
+MD5sum: fd2b49319c4d551e5c9abe285b5ffc6a
+SHA1: 6aa2180b52ca14f10005052d311b7c34e7f6dfa3
+SHA256: a7ae54089530a6b06dd4d897e9c06b0fa857ab554c04bec7a221965c9c6c6be1
+SHA512: 983dd7d6311b4705f17cfed99a08bdfa110428e7aaf3601a58b2375080bc871094550d19c752ff2193cb462c40f733ec6e92e767946935e6f2e369c90e71d241
+Homepage: http://example.com
+Description: Meta package for all systems
+Vendor: brimstone
+
