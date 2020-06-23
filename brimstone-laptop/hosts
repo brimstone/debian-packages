@@ -1,0 +1,11 @@
+#!/bin/bash
+set -euo pipefail
+
+[ -z "${CONNECTION_ID:-}" ] && exit
+
+sed -iE '/ID:/s/^\([^#]\)/#\1/' /etc/hosts
+if grep -q "ID:${CONNECTION_ID}" /etc/hosts; then
+	sed -iE "/ID:${CONNECTION_ID}/s/^#//" /etc/hosts
+else
+	sed -iE '/ID:x/s/^#//' /etc/hosts
+fi

@@ -1,0 +1,75 @@
+Package: brimstone-gui
+Architecture: all
+Version: 0.27.0
+Priority: extra
+Section: metapackages
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Installed-Size: 0
+Depends: brimstone-system, afuse, apt-file, arandr, autorandr, bc, blueman, dmenu, evince, expect, feh, firefox, flameshot, golang-go, graphicsmagick-imagemagick-compat, i3-wm, ibus, libreoffice, lightdm, lightdm-gtk-greeter, openvpn, parcellite, pavucontrol, pinentry-gtk2, pulseaudio, retext, rxvt-unicode-256color, solaar, sshfs, thunderbird, transmission-cli, vlc, xcape, xcompmgr, xdotool, xscreensaver, xscreensaver-data-extra, xsel, yubikey-manager, zenity
+Filename: ./brimstone-gui_0.27.0_all.deb
+Size: 1032
+MD5sum: feb5383e43a1d15aced65c53db542d24
+SHA1: 291ce1f86423a2b50a698c470ea3bcbf8be280cc
+SHA256: 5b840f4feb076a203068e46c105ebb2b422fcc2e81b5bc67e9adf9f642d1af11
+SHA512: 8c89835faa779fced98546acd01078ea40970df32c3769bded76822d03f7f905cb764406e7e16da039199eef94e3c725594116766cd09cc21d4c50bf2f375a15
+Homepage: http://example.com
+Description: FooBar is the great foo and bar software.
+    And this can be in multiple lines!
+Vendor: FooBarCorp
+
+Package: brimstone-system-liani
+Architecture: all
+Version: 0.1.0
+Priority: extra
+Section: metapackages
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Installed-Size: 0
+Depends: brimstone-gui, brimstone-laptop
+Filename: ./brimstone-system-liani_0.1.0_all.deb
+Size: 752
+MD5sum: 651d54786559786c7528a26cd13bbdce
+SHA1: 5ea0031ff6e5141f7abf23a4b1ae21ddbe307814
+SHA256: fd28d51ff23e8d5b1fdd0dba4e8e289ae77f221bff2fc2331c8c7d4e34acd4d1
+SHA512: 8381a50230ce8629147ae7488e741921736f9094584f7e5b08d5a99388af06cb11488be6c100318f759c78d5a72385f5ea23d14827832fff6a147d9ffee9c9ae
+Homepage: http://example.com
+Description: Meta package for the laptop named liani
+Vendor: FooBarCorp
+
+Package: brimstone-system-micropc
+Architecture: all
+Version: 0.1.0
+Priority: extra
+Section: metapackages
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Installed-Size: 0
+Depends: brimstone-gui, brimstone-laptop, libvdpau-va-gl1, intel-media-va-driver
+Filename: ./brimstone-system-micropc_0.1.0_all.deb
+Size: 806
+MD5sum: 64f7596462df9fd637d46d467e59c85f
+SHA1: f7f53a6759640798462cd371bb25895e5d5031ac
+SHA256: bffb7d98a3153cffcb46126c00bb9277b3dd6868a99f865c49b46d24b7ed2360
+SHA512: f4250d9790cfe3a8f37645667a5ce445ecb01f40fb38b93ce1160773f46f98989fe0585cd2e134c5f8eb1575aeeb0cafbb371ca259c8a9504fff2a5e19a9f892
+Homepage: http://example.com
+Description: FooBar is the great foo and bar software.
+    And this can be in multiple lines!
+Vendor: FooBarCorp
+
+Package: brimstone-system
+Architecture: all
+Version: 0.18.0
+Priority: extra
+Section: metapackages
+Maintainer: Matt Robinson <brimstone@the.narro.ws>
+Installed-Size: 0
+Depends: apt-transport-https, aria2, bind9-host, btrfs-progs, curl, entr, git, htop, iftop, init, iotop, jq, mtr-tiny, ncdu, netcat-traditional, p7zip-full, pv, rclone, rsync, ssh, sudo, tmux, tree, unrar, vim, zsh
+Conflicts: nano
+Filename: ./brimstone-system_0.18.0_all.deb
+Size: 1414
+MD5sum: 9906187f3dae8b0b613605cf2a4cdffb
+SHA1: 6a488ba627982e0afb94b9a4f9d668a762b76ef1
+SHA256: 80e6877c3448d45b275e46e05eeac5ac7ed8abbdc287c799adb70d5dbc5d4526
+SHA512: f74f1cc99b703b714097edf9b11a680faadb37fe63e97986b0eced6c9a9febc2a8492a302978a217ac14aece56dd2559cbf2e12604096f8b818f5e888a53b1cc
+Homepage: http://example.com
+Description: Meta package for all systems
+Vendor: brimstone
+
