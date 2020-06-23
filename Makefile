@@ -15,3 +15,12 @@ install: all
 .PHONY: clean
 clean:
 	rm -f dist/*
+
+.PHONY: deploy
+deploy: $(DEBS)
+	git checkout gh-pages
+	mkrepo
+	git add .
+	git commit --amend --no-edit
+	git push -fu
+	git checkout nfpm
