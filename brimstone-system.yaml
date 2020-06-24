@@ -22,6 +22,8 @@ depends:
 - tree
 - vim
 - zsh
+conflicts:
+- nano
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
   FooBar is the great foo and bar software.
