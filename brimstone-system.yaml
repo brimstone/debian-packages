@@ -11,6 +11,7 @@ depends:
 - curl
 - entr
 - git
+- htop
 - iftop
 - tmux
 - vim
