@@ -4,7 +4,7 @@ all: $(DEBS)
 
 dist/%.deb: %.yaml
 	@mkdir -p dist
-	VERSION =0.$(shell git log --oneline $< | wc -l) \
+	VERSION=0.$(shell git log --oneline $< | wc -l) \
 	nfpm pkg --config $< --target $@
 
 .PHONY: install
