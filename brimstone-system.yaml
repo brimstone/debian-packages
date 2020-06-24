@@ -13,6 +13,10 @@ depends:
 - git
 - htop
 - iftop
+- init
+- ncdu
+- rsync
+- sudo
 - tmux
 - vim
 - zsh
