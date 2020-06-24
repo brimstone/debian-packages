@@ -21,6 +21,7 @@ depends:
 - thunderbird
 - xcape
 - xcompmgr
+- xsel
 - yubikey-manager
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
