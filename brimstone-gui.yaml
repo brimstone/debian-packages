@@ -6,19 +6,20 @@ section: "metapackages"
 priority: "extra"
 depends:
 - brimstone-system
-- xcape
-- i3-wm
-- rxvt-unicode-256color
-- graphicsmagick-imagemagick-compat
-- feh
-- flameshot
-- firefox
-- dmenu
 - afuse
-- sshfs
-- parcellite
-- xcompmgr
+- dmenu
+- feh
+- firefox
+- flameshot
+- graphicsmagick-imagemagick-compat
+- i3-wm
 - ibus
+- parcellite
+- rxvt-unicode-256color
+- sshfs
+- thunderbird
+- xcape
+- xcompmgr
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
   FooBar is the great foo and bar software.
