@@ -18,6 +18,7 @@ clean:
 .PHONY: deploy
 deploy: $(DEBS)
 	git checkout gh-pages
+	git rm *.deb
 	mkrepo
 	git add .
 	git commit --amend --no-edit
