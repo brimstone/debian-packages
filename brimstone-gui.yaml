@@ -8,6 +8,8 @@ depends:
 - brimstone-system
 - afuse
 - apt-file
+- arandr
+- autorandr
 - dmenu
 - feh
 - firefox
