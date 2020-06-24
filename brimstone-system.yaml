@@ -19,6 +19,7 @@ depends:
 - ssh
 - sudo
 - tmux
+- tree
 - vim
 - zsh
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
