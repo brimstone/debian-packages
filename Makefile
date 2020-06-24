@@ -1,11 +1,10 @@
 DEBS = $(patsubst %.yaml, dist/%.deb, $(wildcard *.yaml))
-VERSION =0.$(shell git log --oneline | wc -l)
-export VERSION
 
 all: $(DEBS)
 
 dist/%.deb: %.yaml
 	@mkdir -p dist
+	VERSION =0.$(shell git log --oneline $< | wc -l) \
 	nfpm pkg --config $< --target $@
 
 .PHONY: install
