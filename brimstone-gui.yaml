@@ -25,6 +25,7 @@ depends:
 - vlc
 - xcape
 - xcompmgr
+- xdotool
 - xsel
 - yubikey-manager
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
