@@ -6,7 +6,6 @@ version: "${VERSION}"
 section: "metapackages"
 priority: "extra"
 depends:
-- 7zip-full
 - apt-transport-https
 - btrfs-progs
 - curl
@@ -16,6 +15,7 @@ depends:
 - iftop
 - init
 - ncdu
+- p7zip-full
 - rsync
 - ssh
 - sudo
