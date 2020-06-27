@@ -19,6 +19,7 @@ depends:
 - i3-wm
 - ibus
 - parcellite
+- pinentry-gtk2
 - rxvt-unicode-256color
 - sshfs
 - thunderbird
