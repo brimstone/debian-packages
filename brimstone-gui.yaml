@@ -11,6 +11,7 @@ depends:
 - arandr
 - autorandr
 - dmenu
+- evince
 - feh
 - firefox
 - flameshot
