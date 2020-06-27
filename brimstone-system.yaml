@@ -33,4 +33,4 @@ vendor: "FooBarCorp"
 homepage: "http://example.com"
 license: "AGPLv3"
 files:
-  brimstone-system/motd: /etc/motd
+  brimstone-system/apt-checkup: /usr/bin/apt-checkup
