@@ -19,6 +19,7 @@ depends:
 - graphicsmagick-imagemagick-compat
 - i3-wm
 - ibus
+- openvpn
 - parcellite
 - pinentry-gtk2
 - rxvt-unicode-256color
