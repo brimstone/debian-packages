@@ -6,6 +6,7 @@ version: "${VERSION}"
 section: "metapackages"
 priority: "extra"
 depends:
+- 7zip-full
 - apt-transport-https
 - btrfs-progs
 - curl
