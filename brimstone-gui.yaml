@@ -19,6 +19,7 @@ depends:
 - graphicsmagick-imagemagick-compat
 - i3-wm
 - ibus
+- lightdm
 - lightdm-gtk-greeter
 - openvpn
 - parcellite
