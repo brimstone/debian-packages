@@ -1,0 +1,18 @@
+# nfpm example config file
+name: "brimstone-laptop"
+arch: "all"
+platform: "linux"
+version: "${VERSION}"
+section: "metapackages"
+priority: "extra"
+depends:
+- brimstone-system
+maintainer: "Matt Robinson <brimstone@the.narro.ws>"
+description: |
+  FooBar is the great foo and bar software.
+    And this can be in multiple lines!
+vendor: "FooBarCorp"
+homepage: "http://example.com"
+license: "AGPLv3"
+files:
+  brimstone-laptop/laptop.conf: /etc/brimstone/laptop.conf
