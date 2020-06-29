@@ -8,6 +8,11 @@ priority: "extra"
 depends:
 - brimstone-system
 - acpi
+- wicd-cli
+- wicd-daemon
+- wicd-gtk
+conflicts:
+- network-manager
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
   FooBar is the great foo and bar software.
