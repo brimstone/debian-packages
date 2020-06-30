@@ -34,6 +34,7 @@ homepage: "http://example.com"
 license: "AGPLv3"
 files:
   brimstone-system/apt-checkup: /usr/bin/apt-checkup
-  brimstone-system/firewall: /etc/network/if-up.d/firewall
 config_files:
   brimstone-system/firewall.conf: /etc/firewall
+scripts:
+  postinstall: brimstone-system/postinstall.sh
