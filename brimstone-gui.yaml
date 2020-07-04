@@ -33,6 +33,7 @@ depends:
 - xdotool
 - xsel
 - yubikey-manager
+- zenity
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
   FooBar is the great foo and bar software.
