@@ -24,6 +24,7 @@ depends:
 - openvpn
 - parcellite
 - pinentry-gtk2
+- retext
 - rxvt-unicode-256color
 - sshfs
 - thunderbird
