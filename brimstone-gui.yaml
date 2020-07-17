@@ -28,6 +28,7 @@ depends:
 - rxvt-unicode-256color
 - sshfs
 - thunderbird
+- transmission-cli
 - vlc
 - xcape
 - xcompmgr
