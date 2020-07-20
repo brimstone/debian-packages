@@ -25,6 +25,7 @@ depends:
 - openvpn
 - parcellite
 - pinentry-gtk2
+- pulseaudio
 - retext
 - rxvt-unicode-256color
 - sshfs
