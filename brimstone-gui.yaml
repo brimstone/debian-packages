@@ -24,6 +24,7 @@ depends:
 - lightdm-gtk-greeter
 - openvpn
 - parcellite
+- pavucontrol
 - pinentry-gtk2
 - pulseaudio
 - retext
