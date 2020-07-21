@@ -21,6 +21,7 @@ depends:
 - ncdu
 - netcat-traditional
 - p7zip-full
+- pv
 - rsync
 - ssh
 - sudo
