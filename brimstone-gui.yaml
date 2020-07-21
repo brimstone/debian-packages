@@ -10,6 +10,7 @@ depends:
 - apt-file
 - arandr
 - autorandr
+- bc
 - blueman
 - dmenu
 - evince
