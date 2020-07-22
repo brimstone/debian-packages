@@ -17,6 +17,7 @@ depends:
 - iftop
 - init
 - iotop
+- jq
 - mtr-tiny
 - ncdu
 - netcat-traditional
