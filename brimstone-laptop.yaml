@@ -8,10 +8,8 @@ priority: "extra"
 depends:
 - brimstone-system
 - acpi
-- connman
-- connman-ui
-conflicts:
 - network-manager
+- network-manager-gnome
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
   FooBar is the great foo and bar software.
