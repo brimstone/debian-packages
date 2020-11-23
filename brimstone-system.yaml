@@ -23,20 +23,21 @@ depends:
 - netcat-traditional
 - p7zip-full
 - pv
+- rclone
 - rsync
 - ssh
 - sudo
 - tmux
 - tree
+- unrar
 - vim
 - zsh
 conflicts:
 - nano
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
-  FooBar is the great foo and bar software.
-    And this can be in multiple lines!
-vendor: "FooBarCorp"
+  Meta package for all systems
+vendor: "brimstone"
 homepage: "http://example.com"
 license: "AGPLv3"
 files:
