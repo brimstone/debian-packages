@@ -31,6 +31,7 @@ depends:
 - pulseaudio
 - retext
 - rxvt-unicode-256color
+- solaar
 - sshfs
 - thunderbird
 - transmission-cli
@@ -38,6 +39,7 @@ depends:
 - xcape
 - xcompmgr
 - xdotool
+- xscreensaver
 - xsel
 - yubikey-manager
 - zenity
