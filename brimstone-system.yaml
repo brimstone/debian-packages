@@ -42,6 +42,7 @@ homepage: "http://example.com"
 license: "AGPLv3"
 files:
   brimstone-system/apt-checkup: /usr/bin/apt-checkup
+  brimstone-system/inotify.conf: /etc/sysctl.d/inotify.conf
 config_files:
   brimstone-system/firewall.conf: /etc/firewall
 scripts:
