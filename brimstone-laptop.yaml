@@ -10,8 +10,9 @@ depends:
 - acpi
 - network-manager
 - network-manager-gnome
-- tlp
+- pm-utils
 - tinc
+- tlp
 maintainer: "Matt Robinson <brimstone@the.narro.ws>"
 description: |
   FooBar is the great foo and bar software.
