@@ -1,0 +1,16 @@
+# nfpm example config file
+name: "brimstone-system-talon"
+arch: "all"
+platform: "linux"
+version: "${VERSION}"
+section: "metapackages"
+priority: "extra"
+depends:
+- brimstone-gui
+- brimstone-laptop
+maintainer: "Matt Robinson <brimstone@the.narro.ws>"
+description: |
+  Meta package for the laptop named talon
+vendor: "FooBarCorp"
+homepage: "http://example.com"
+license: "AGPLv3"

@@ -4,7 +4,7 @@ This is a set of packages I use on my systems. It's mainly for me, but maybe you
 
 ## Setup
 ```
-curl https://brimstone.github.io/debian-packages/public.key | apt-key add -
+sudo curl https://brimstone.github.io/debian-packages/public.key -o /etc/apt/trusted.gpg.d/brimstone.asc
 echo deb https://brimstone.github.io/debian-packages ./ >> /etc/apt/sources.list.d/brimstone.list
 ```
 
