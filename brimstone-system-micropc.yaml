@@ -17,5 +17,3 @@ description: |
 vendor: "FooBarCorp"
 homepage: "http://example.com"
 license: "AGPLv3"
-files:
-  brimstone-system-micropc/micropc.conf: /etc/brimstone/micropc.conf

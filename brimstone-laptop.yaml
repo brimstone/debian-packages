@@ -20,5 +20,6 @@ description: |
 vendor: "FooBarCorp"
 homepage: "http://example.com"
 license: "AGPLv3"
-files:
-  brimstone-laptop/hosts: /etc/network/if-up.d/hosts
+contents:
+- src: brimstone-laptop/hosts
+  dst: /etc/network/if-up.d/hosts

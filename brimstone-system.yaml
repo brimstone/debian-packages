@@ -40,10 +40,15 @@ description: |
 vendor: "brimstone"
 homepage: "http://example.com"
 license: "AGPLv3"
-files:
-  brimstone-system/apt-checkup: /usr/bin/apt-checkup
-  brimstone-system/inotify.conf: /etc/sysctl.d/inotify.conf
-config_files:
-  brimstone-system/firewall.conf: /etc/firewall
+contents:
+- src: brimstone-system/firewall
+  dst: /etc/firewall
+  type: config|noreplace
+- src: brimstone-system/apt-checkup
+  dst: /usr/bin/apt-checkup
+  file_info:
+    mode: 0755
+- src: brimstone-system/inotify.conf
+  dst: /etc/sysctl.d/inotify.conf
 scripts:
   postinstall: brimstone-system/postinstall.sh

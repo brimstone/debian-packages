@@ -52,5 +52,3 @@ description: |
 vendor: "FooBarCorp"
 homepage: "http://example.com"
 license: "AGPLv3"
-config_files:
-  brimstone-gui/gui.conf: /etc/brimstone/gui.conf
