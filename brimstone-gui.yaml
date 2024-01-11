@@ -31,7 +31,7 @@ depends:
 - pinentry-gtk2
 - pulseaudio
 - retext
-- rxvt-unicode-256color
+- rxvt-unicode
 - solaar
 - sshfs
 - thunderbird
