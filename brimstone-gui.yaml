@@ -19,7 +19,7 @@ depends:
 - firefox
 - flameshot
 - golang-go
-- graphicsmagick-imagemagick-compat
+- graphicsmagick
 - i3-wm
 - ibus
 - libreoffice
