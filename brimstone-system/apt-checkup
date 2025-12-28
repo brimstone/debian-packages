@@ -10,3 +10,6 @@ apt dist-upgrade
 apt-mark minimize-manual
 apt autoremove --purge
 apt clean
+if dpkg -l | grep -v linux-image-amd64 | grep -q linux-image; then
+	apt purge $(dpkg -l | grep -v $(uname -r) | grep -v linux-image-amd64 | awk '/linux-image/ {print $2}' | tr '\n' ' ')
+fi
